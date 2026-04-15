@@ -8,4 +8,9 @@ public class HelloWorldTest {
         HelloWorld helloWorld = new HelloWorld();
         assertEquals("Hello, World!", helloWorld.getGreeting());
     }
+
+    public void testGetNew() {
+        HelloWorld newComm = new HelloWorld();
+        assertEquals("Automation is Wow", helloWorld.getNew());
+    }
 }
