@@ -3,7 +3,7 @@ package com.example;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!"); //comment 1
-        System.out.println(getNew());
+        System.out.println("Automation is Wow");
     }
 
     public String getGreeting() {
