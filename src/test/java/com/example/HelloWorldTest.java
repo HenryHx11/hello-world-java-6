@@ -11,6 +11,6 @@ public class HelloWorldTest {
 
     public void testGetNew() {
         HelloWorld newComm = new HelloWorld();
-        assertEquals("Automation is Wow", helloWorld.getNew());
+        assertEquals("Automation is Wow", newComm.getNew());
     }
 }
